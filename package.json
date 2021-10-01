@@ -1,0 +1,27 @@
+{
+  "name": "mongoatlas",
+  "version": "1.0.0",
+  "description": "Lesson Objectives",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lloddy/mongo_atlas.git"
+  },
+  "author": "Lloyd Eddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lloddy/mongo_atlas/issues"
+  },
+  "homepage": "https://github.com/lloddy/mongo_atlas#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.8"
+  }
+}
